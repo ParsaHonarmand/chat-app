@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul {
+  bottom: 2px;
+  overflow: hidden;
+  list-style: none;
+  padding-left: 0;
+}
+
+li:nth-child(odd) {
+  background: #ebe8e8
+}
+
+.form-inline .form-control {
+  width: 75%;
+}
+
+.form-inline button {
+  margin: 0 auto;
+  width: 20%
+}
+
+#users {
+  margin-top: 40px;
+}
+
+#allMessages {
+  /* max-height: 200px; */
+  /* height: 200px;
+  overflow-y: scroll;
+  overscroll-behavior-y: contain;
+  scroll-snap-type: y mandatory; */
+  height: 200px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+body {
+  background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-046.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Noto Sans', sans-serif;
+}
